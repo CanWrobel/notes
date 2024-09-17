@@ -1,0 +1,16 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Format whole folder",
+      "type": "shell",
+      "command": "npx prettier --write './**/*.js'",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "Format all JavaScript files in the current folder"
+    }
+  ]
+}
